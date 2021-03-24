@@ -1,4 +1,3 @@
-import punto
 
 class Poligono:
 
