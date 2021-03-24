@@ -1,5 +1,4 @@
 import math
-import punto
 
 class Vector:
 
@@ -7,7 +6,6 @@ class Vector:
         self.punto1= punto1
         self.punto2 = punto2
 
-    
     def c_x(self):
         return self.punto2.get_x() - self.punto1.get_x()
 
