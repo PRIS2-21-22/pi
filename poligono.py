@@ -1,5 +1,7 @@
-y: float
+import punto
 
-y = 12,0
+class Poligono:
 
+     def __init__(self, puntos):
+        self.puntos = puntos
 
