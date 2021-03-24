@@ -6,6 +6,7 @@ class Vector:
     def __init__(self, punto1 ,punto2):
         self.punto1= punto1
         self.punto2 = punto2
+        
     
     def cX(self):
         return self.punto2.get_x() - self.punto1.get_x()
